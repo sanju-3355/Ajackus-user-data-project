@@ -1,0 +1,12 @@
+.container{
+    background-image: linear-gradient(to left, orange, grey);
+    background-size: cover;
+    min-height: 100vh;
+}
+.home{
+    display: flex;
+    align-items: center;
+}
+.img-fluid{
+    width: 350px;
+}
