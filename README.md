@@ -4,7 +4,7 @@
 Develop a simple web application where users can view, add, edit, and delete user details from a mock backend API.
 
 > Demo 
-> Link :  https://chaithu-bookstore.netlify.app/
+> Link :  https://react-axios-crud-operations.vercel.app/
 
 ### Usage 
 
