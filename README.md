@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# User Management Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Objective
+Develop a simple web application where users can view, add, edit, and delete user details from a mock backend API.
 
-## Available Scripts
+> Demo 
+> Link :  https://chaithu-bookstore.netlify.app/
 
-In the project directory, you can run:
+### Usage 
 
-### `npm start`
+``` 
+git clone <github repository link>  //to clone the github repository
+npm install                         //to install all the dependencies required to run the application
+npm start                           //to start the application
+```  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Requirements
+### User Interface:
+* Display a list of users with details such as ID, First Name, Last Name, Email, and Department.
+* Provide buttons or links to "Add", "Edit", and "Delete" users.
+* A form to input a new user's details or edit an existing user's details.
+* Add pagination options to the page with 10, 25, 50, and 100 limits. Alternatively, you can implement infinite scrolling. 
+* Add a filter popup allowing users to filter by first name, last name, email, and department.
+* Implement search and sort
+* Make the interface responsive.
+### Backend Interaction:
+* Use JSONPlaceholder, a free online REST API that you can use for demonstration and test purposes.
+* Specifically, use the '/users' endpoint to fetch and manipulate user data.
+### Functionality:
+* View: Display all users by fetching data from the '/users' endpoint.
+* Add: Allow adding a new user by posting to the '/users' endpoint. (Note: JSONPlaceholder won't actually add the user, but will simulate a successful response.)
+* Edit: Allow editing of an existing user. This should involve fetching the current data for a user, allowing for edits, and then putting the updated data back via the API.
+* Delete: Allow users to be deleted, by sending a delete request to the API.
+### Error Handling & Validations:
+* Handle scenarios where the API request might fail - show an error message to the user in such cases.
+* Add client-side validation for the user input form.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Guidelines
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Followed Github Guidelines
+  * Made the commits often and made sure the commit messages are concise and specific
+  * Included a README file for explaining the project setup, usage instructions, and any additional information
+* Followed Clean Code Guidelines
+* The repo is well-organized and easy to navigate 
+  * Followed the [create-react-app] folder structure
+* The Application handled all the errors
